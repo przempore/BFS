@@ -12,7 +12,6 @@ def BFS(s, Adj):
           parent[v] = u
           next.append(v)
     frontier = next
-    print frontier
     i += 1
 
 
